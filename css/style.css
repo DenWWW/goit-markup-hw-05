@@ -8,9 +8,9 @@
 	--font-size-headings: 18px;
 	--font-size-btn: 16px;
 	--font-color-white: #ffffff;
-	--colorBrand: #4D5AE5;
-	--colorBtnHover: #404BBF;
-	--colorHeadings: #2E2F42;
+	--colorBrand: #4d5ae5;
+	--colorBtnHover: #404bbf;
+	--colorHeadings: #2e2f42;
 	--background-color-btn: #f4f4fd;
 	--color-body-text: #434455;
 	--logo-line-height: 1.33;
@@ -214,7 +214,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-	background-color: #404BBF;
+	background-color: #404bbf;
 }
 /* --------HERO--------- */
 
@@ -235,7 +235,7 @@ body {
 	display: block;
 	content: "";
 	height: 112px;
-	background-image: url('../images/antenna.svg');
+	background-image: url("../images/antenna.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: var(--background-color-btn);
@@ -247,7 +247,7 @@ body {
 	display: block;
 	content: "";
 	height: 112px;
-	background-image: url('../images/clock.svg');
+	background-image: url("../images/clock.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: var(--background-color-btn);
@@ -259,7 +259,7 @@ body {
 	display: block;
 	content: "";
 	height: 112px;
-	background-image: url('../images/diagram.svg');
+	background-image: url("../images/diagram.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: var(--background-color-btn);
@@ -271,7 +271,7 @@ body {
 	display: block;
 	content: "";
 	height: 112px;
-	background-image: url('../images/astronaut.svg');
+	background-image: url("../images/astronaut.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: var(--background-color-btn);
@@ -358,8 +358,9 @@ body {
 	transition: background-color var(--model-transition);
 }
 
-.team-soc-link:hover, .team-soc-link:focus {
-	background-color: #404BBF;
+.team-soc-link:hover,
+.team-soc-link:focus {
+	background-color: #404bbf;
 }
 
 .team-soc-icon {
@@ -377,7 +378,6 @@ body {
 	margin-bottom: 8px;
 }
 
-
 /* --------CUSTOMERS--------- */
 .customers {
 	padding-top: 130px;
@@ -394,19 +394,18 @@ body {
 	width: calc((100% - 120) / 6);
 	width: 168px;
 	height: 88px;
-	
 }
 .customers-link {
 	width: 100%;
 	height: 100%;
-	border: 1px solid #8E8F99;
+	border: 1px solid #8e8f99;
 	border-radius: 4px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #8E8F99;
+	color: #8e8f99;
 	transition: fill var(--model-transition), border var(--model-transition);
-	fill: #8E8F99;
+	fill: #8e8f99;
 }
 
 .customers-icon {
@@ -417,7 +416,8 @@ body {
 	border-color: var(--colorBrand);
 }
 
-.customers-link:hover .customers-icon, .customers-link:focus .customers-icon{
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
 	fill: var(--colorBrand);
 }
 
@@ -447,7 +447,8 @@ body {
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;
 	padding: 12px 24px;
-	transition: color var(--model-transition), background-color var(--model-transition), box-shadow var(--model-transition);
+	transition: color var(--model-transition), background-color var(--model-transition),
+		box-shadow var(--model-transition);
 }
 
 .btn-link:hover,
@@ -469,11 +470,13 @@ body {
 	transition: box-shadow var(--model-transition);
 }
 
-.portfolio-list-item:hover, .portfolio-list-item:focus {
+.portfolio-list-item:hover,
+.portfolio-list-item:focus {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-list-item:hover .portfolio-top-text, .portfolio-list-item:focus .portfolio-top-text {
+.portfolio-list-item:hover .portfolio-top-text,
+.portfolio-list-item:focus .portfolio-top-text {
 	transform: translateY(0%);
 }
 
@@ -481,10 +484,10 @@ body {
 	display: block;
 }
 
-.portfolio-list-link:hover .portfolio-top-text, .portfolio-list-link:focus .portfolio-top-text {
+.portfolio-list-link:hover .portfolio-top-text,
+.portfolio-list-link:focus .portfolio-top-text {
 	transform: translateY(0%);
 }
-
 
 .portfolio-top-wrap {
 	position: relative;
@@ -499,7 +502,7 @@ body {
 	line-height: var(--descriptions-line-height);
 	color: var(--background-color-btn);
 	padding: 40px 32px 164px 32px;
-	background-color: rgba(77, 90, 229, 0.850);
+	background-color: rgba(77, 90, 229, 0.85);
 	height: 100%;
 	transform: translateY(100%);
 	transition: transform var(--model-transition);
@@ -522,7 +525,6 @@ body {
 .portfolio-list-title {
 	margin-bottom: 8px;
 }
-
 
 /* ---------FOOTERS-------- */
 
@@ -552,7 +554,7 @@ body {
 	color: white;
 	font-weight: var(--font-medium);
 	font-size: 16px;
-	line-height: var(--descriptions-line-height)
+	line-height: var(--descriptions-line-height);
 }
 
 .footer-item:last-child {
@@ -574,7 +576,7 @@ body {
 .footer-soc-link {
 	width: 100%;
 	height: 100%;
-	background-color: rgba(255, 255, 255, 0.1);;
+	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -582,10 +584,10 @@ body {
 	transition: background-color var(--model-transition);
 }
 
-.footer-soc-link:hover, .footer-soc-link:focus {
-	background-color: #31D0AA;
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+	background-color: #31d0aa;
 }
-
 
 /* ========MODAL WINDOW======= */
 
@@ -604,7 +606,7 @@ body {
 	left: 50%;
 	width: 408px;
 	min-height: 576px;
-	background-color: #FCFCFC;
+	background-color: #fcfcfc;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 	transform: translate(-50%, -50%) scale(1);
@@ -613,7 +615,7 @@ body {
 
 .backdrop.is-hidden .modal {
 	transform: translate(-50%, -50%) scale(0);
-} 
+}
 
 .backdrop.is-hidden {
 	opacity: 0;
@@ -626,7 +628,7 @@ body {
 	right: 24px;
 	width: 24px;
 	height: 24px;
-	background-color: #E7E9FC;
+	background-color: #e7e9fc;
 	border-radius: 50%;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	display: flex;
@@ -635,16 +637,17 @@ body {
 	cursor: pointer;
 	color: #000;
 	transition: border-color var(--model-transition), background-color var(--model-transition);
-} 
+}
 
-.modal-close-btn:hover, .modal-close-btn:focus {
+.modal-close-btn:hover,
+.modal-close-btn:focus {
 	border-color: var(--colorBtnHover);
 	background-color: var(--colorBtnHover);
 }
 
 .modal-close-btn:hover .modal-close-btn-icon,
 .modal-close-btn:focus .modal-close-btn-icon {
-	fill: #FFFFFF;
+	fill: #ffffff;
 }
 
 .is-hidden {
